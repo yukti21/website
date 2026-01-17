@@ -7,6 +7,8 @@
 -------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap');
+
 
 /*------------------------------------------------------------------
     IMPORT FILES
@@ -25,9 +27,12 @@
 
 body {
     color: #999999;
-    font-size: 14px;
-    font-family: 'Roboto Mono', monospace;
+    font-size: 17px;
+    
+    font-family: 'Playfair Display', serif;
+
     line-height: 1.80857;
+    word-spacing: 1,3px;
 }
 
 html, body{
@@ -303,9 +308,6 @@ a img.aligncenter {
     HEADER
 -------------------------------------------------------------------*/
 
-.navbar-dark{
-	
-}
 
 .navbar-dark .navbar-nav .nav-link{
 	color: #ffffff;
@@ -485,7 +487,7 @@ xclip
     padding-top: 0;
 }
 
-.section.wb {
+section.wb {
     background-color: #ffffff;
 }
 
@@ -2130,7 +2132,7 @@ select.mobile-device {
     font-weight: 400;
     font-size: 20px;
     text-transform: capitalize;
-    line-height: !important;
+    line-height: important;
 }
 
 .footer {
@@ -2376,7 +2378,7 @@ select.mobile-device {
     color: #999 !important;
     margin: 0 !important;
     padding: 0 !important;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 .stat-wrap p {
@@ -2385,7 +2387,7 @@ select.mobile-device {
     margin: 0;
     font-weight: 300;
     padding: 4px 0 0;
-    line-height: 1 !important:
+    line-height: 1 !important;
 }
 
 #preloader {
